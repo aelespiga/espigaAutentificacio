@@ -1,0 +1,18 @@
+{
+  "indexes": [
+   {
+      "collectionGroup": "usuarios",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "User",
+          "mode": "ASCENDING"
+        },
+        {
+          "fieldPath": "Password",
+          "mode": "ASCENDING"
+        }
+	]
+	}
+  ]
+}
